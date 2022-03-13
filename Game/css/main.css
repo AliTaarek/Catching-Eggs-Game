@@ -1,0 +1,87 @@
+body{
+    background: url(../images/game1.png) no-repeat;
+    background-size:100vw 100vh 
+}
+button{
+    height: 55px;
+    position: absolute;
+    bottom: 18%;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e8b939;
+    box-shadow: 1px 1px 11px 0px #000;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.startBtn{
+    right: 40%;
+}
+.rulesBtn{
+    right: 51%;
+    background-color: #06bdb4;
+}
+
+button:hover{
+    box-shadow: 1px 1px 23px 4px rgb(194, 119, 34);
+}
+input[type="text"]{
+    position: absolute;
+    top: 50%;
+    right: 42%;
+    width: 200px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255,255,255,.9);
+
+}
+
+
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #ffffff;
+     color: #fff;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #e83a39;
+}
+label
+{
+     font: 700 17px/1.7 'Open Sans', Helvetica,Garamond ;
+     color: rgb(250, 126, 10);
+     cursor: pointer;
+} 
+.moods{
+    position: absolute;
+    bottom: 30%;
+    right: 45%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<title>Caching Eggs Game</title>
+
+<link rel="stylesheet" href="css/game.css">
+<body>
+  <audio id="music">
+    <source src="sounds/gamesoundtrack.mp3" type="audio/mpeg">
+   </audio>
+  <audio id="break">
+    <source src="sounds/break.mp3" type="audio/mpeg">
+    </audio>
+  <audio id="basket">
+    <source src="sounds/whooo.mp3" type="audio/mpeg">
+    </audio>
+<div id="maindiv">
+    
+
+
+<div class="bar">
+
+  <span class="user">user: <span class="userdetails" style="color:red"></span></span>
+  <span class="user">last played: <span class="userdetails" style="color:red"></span></span>  
+  <span class="timer">00:00</span>
+    <span class="score">score: <span id="userscore" style="color:red">0</span></span>    
+</div>
+
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close">x</span>
+  <!-- Modal content -->
+  <div class="modal-content">
+    
+    <span class="finalscore">your final score is: <span id="userfinalscore" style="color:red">0</span></span>
+    <button class="exit"></button>
+    <button class="playagain"></button>
+    
+  </div>
+
+</div>
+
+</body>
+
+<script type="module" src="hardmodeclass.js"></script>
+<script type="module" src="gamescript.js"></script>
+</html>
